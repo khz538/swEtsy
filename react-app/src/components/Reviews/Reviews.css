@@ -1,0 +1,18 @@
+.reviews-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Guardian-EgypTT";
+    font-size: 30px;
+    width: 100%;
+}
+
+.product-review {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break:break-all;
+}
